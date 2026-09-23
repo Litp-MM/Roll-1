@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"roll-1\startup_stm32f103xb.o"
+"roll-1\main.o"
+"roll-1\gpio.o"
+"roll-1\usart.o"
+"roll-1\stm32f1xx_it.o"
+"roll-1\stm32f1xx_hal_msp.o"
+"roll-1\stm32f1xx_hal_gpio_ex.o"
+"roll-1\stm32f1xx_hal_tim.o"
+"roll-1\stm32f1xx_hal_tim_ex.o"
+"roll-1\stm32f1xx_hal_uart.o"
+"roll-1\stm32f1xx_hal.o"
+"roll-1\stm32f1xx_hal_rcc.o"
+"roll-1\stm32f1xx_hal_rcc_ex.o"
+"roll-1\stm32f1xx_hal_gpio.o"
+"roll-1\stm32f1xx_hal_dma.o"
+"roll-1\stm32f1xx_hal_cortex.o"
+"roll-1\stm32f1xx_hal_pwr.o"
+"roll-1\stm32f1xx_hal_flash.o"
+"roll-1\stm32f1xx_hal_flash_ex.o"
+"roll-1\stm32f1xx_hal_exti.o"
+"roll-1\system_stm32f1xx.o"
+"roll-1\com_debug.o"
+--library_type=microlib --strict --scatter "roll-1\roll-1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "roll-1.map" -o roll-1\roll-1.axf
