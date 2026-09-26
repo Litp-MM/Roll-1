@@ -28,5 +28,7 @@ roll-1\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 roll-1\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 roll-1\main.o: ../Core/Inc/usart.h
 roll-1\main.o: ../Core/Inc/gpio.h
-roll-1\main.o: .\common\com_debug.h
+roll-1\main.o: ./common/com_debug.h
 roll-1\main.o: D:\ASoftware\Keil5\Download\ARM\ARMCC\Bin\..\include\stdio.h
+roll-1\main.o: D:\ASoftware\Keil5\Download\ARM\ARMCC\Bin\..\include\stdarg.h
+roll-1\main.o: D:\ASoftware\Keil5\Download\ARM\ARMCC\Bin\..\include\string.h

@@ -2,6 +2,9 @@
     "configurations": [
         {
             "name": "roll-1",
+            "compilerPath": "D:\\ASoftware\\Keil5\\Download\\ARM\\ARMCC\\Bin\\Armcc.exe",
+            "cStandard": "c99",
+            "cppStandard": "c++11",
             "includePath": [
                 "d:\\ASoftware\\Keil5\\Document\\roll-1\\Core\\Inc",
                 "d:\\ASoftware\\Keil5\\Document\\roll-1\\Drivers\\STM32F1xx_HAL_Driver\\Inc",
@@ -9,6 +12,9 @@
                 "d:\\ASoftware\\Keil5\\Document\\roll-1\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include",
                 "d:\\ASoftware\\Keil5\\Document\\roll-1\\Drivers\\CMSIS\\Include",
                 "d:\\ASoftware\\Keil5\\Document\\roll-1\\MDK-ARM\\common",
+                "d:\\ASoftware\\Keil5\\Document\\roll-1\\MDK-ARM\\FreeRTOS",
+                "d:\\ASoftware\\Keil5\\Document\\roll-1\\MDK-ARM\\FreeRTOS\\include",
+                "d:\\ASoftware\\Keil5\\Document\\roll-1\\MDK-ARM\\FreeRTOS\\portable",
                 "D:\\ASoftware\\Keil5\\Download\\ARM\\ARMCC\\include",
                 "D:\\ASoftware\\Keil5\\Download\\ARM\\ARMCC\\include\\rw",
                 "d:\\ASoftware\\Keil5\\Document\\roll-1\\MDK-ARM",

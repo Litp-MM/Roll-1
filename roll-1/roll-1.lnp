@@ -21,6 +21,15 @@
 "roll-1\stm32f1xx_hal_exti.o"
 "roll-1\system_stm32f1xx.o"
 "roll-1\com_debug.o"
+"roll-1\croutine.o"
+"roll-1\event_groups.o"
+"roll-1\list.o"
+"roll-1\queue.o"
+"roll-1\stream_buffer.o"
+"roll-1\tasks.o"
+"roll-1\timers.o"
+"roll-1\heap_4.o"
+"roll-1\port.o"
 --library_type=microlib --strict --scatter "roll-1\roll-1.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
